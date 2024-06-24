@@ -1,0 +1,29 @@
+body{
+  background: rgb(122,133,255);
+  background: linear-gradient(333deg, rgb(255, 74, 122) 35%, rgba(106, 101, 255, 0.973) 65%);
+  height: 100vh;
+  background-size: contain;
+}
+.board-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-container{
+  margin:20px 25%;
+  width: 50%;
+
+  /* background-color: #a2fac1; */
+}
+
+@media (max-width: 420px){
+  .board-container{
+    margin: 20px 10%;
+    width: 80%;
+    }
+
+  
+}
+  
